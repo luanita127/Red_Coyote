@@ -22,9 +22,9 @@ Para poder instalar correctamente el proyecto deberá seguir los siguientes paso
 1. Clonar el repositorio dentro de **xampp/htdocs/**:
   - Puede descargar el ZIP de GitHub y extraer los archivos.
   - Puede inicializar un repositorio en su cmd y clonar el repositorio con el link de GitHub.
-2. Tiene que insertar el respaldo de dos bases de datos que se encuentran en **Usuario/Docs/sql/Proyecto_CW.sql (nombrar como RedCoyote)** y **Usuario/Docs/sql/Calendario.sql (nombrar como Calendario)** 
+2. Tiene que insertar el respaldo de dos bases de datos que se encuentran en **Usuario/Docs/sql/ProyectoCW.sql (nombrar como RedCoyote)** y **Usuario/Docs/sql/Calendario.sql (nombrar como Calendario)** 
 3. Para el correcto funcionamiento, necesitará contar con xampp, y prender apache y mysql.
-4. Por último para poder ver la página, pone la siguiente dirección en su barra de buscador: **localhost/Usuario/index.php** 
+4. Por último para poder ver la página, pone la siguiente dirección en su barra de buscador: **localhost/Red_Coyote/Usuario/index.php** 
 5. Como es la primera vez que entra, necesitará registrarse y crear su cuenta, una vez creada su cuenta puede iniciar sesión y disfrutar de la página. 
 ## Créditos
 
