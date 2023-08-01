@@ -1,0 +1,277 @@
+/*Desarollador: Luana Alvarez*/
+
+/* = FUENTES
+--------------------------------------------- */
+@font-face{
+    font-family: Infinity;
+    src: url('../fonts/Infinity/MADEINFINITY\ PERSONALUSE-Medium.otf');
+}
+@font-face{
+    font-family: LouisGeorge;
+    src: url('../fonts/LouisGeorgeCafe/Louis\ George\ Cafe.ttf');
+}
+@font-face{
+    font-family: Roboto;
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+/* ===================== CONTENIDO ===================== */
+
+main
+{
+    display: flex;
+    justify-content: center;
+}
+
+aside
+{
+    width: 35%;
+    height: 40rem;
+    background-color: rgb(255, 255, 255);
+    padding: 1%;
+}
+
+h3
+{
+    font-family: 'LouisGeorge';
+    text-align: center;
+    margin-top: 2rem;
+    padding: 0%;
+}
+
+.leyenda
+{
+    font-family: "Roboto";
+    font-size: x-small;
+    text-align: center;
+    margin: 2%;
+    margin-top: 0%;
+}
+
+.texto
+{
+    font-family: "Roboto";
+    font-size:medium;
+    margin: 1rem;
+}
+
+.despliegue
+{
+    font-family: "Roboto";
+    font-size:medium;
+    color: rgb(48, 48, 48);
+}
+
+/* ======================= MAPA ======================= */
+
+#mapayhorarios
+{
+    width: 90%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    background-color: rgb(234, 234, 234);
+    margin: 2rem;
+    border-radius: 15px;
+    margin-right: 0%;
+    padding: 1%;
+}
+
+#visto
+{
+    width: 90%;
+    height: 26rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    background-color: rgb(234, 234, 234);
+    margin: 2rem;
+    border-radius: 15px;
+    margin-right: 0%;
+    padding: 1%;
+}
+
+#mapa
+{
+    width: 30rem;
+    height: 15rem;
+    background-color: rgb(22, 76, 123);
+    align-self: center;
+    margin:2%;
+    margin-left: 6%;
+}
+
+#up
+{
+    width: 80%;
+    display: flex;
+    margin:0.5%;
+    align-self: center;
+    justify-content: center;
+}
+
+
+
+#horario
+{
+    text-align: center;
+    align-self: center;
+    font-family: "Roboto";
+    font-size:large;
+}
+
+/* ===================== CONTACTO ===================== */
+
+#contacto
+{
+    width: 90%;
+    height: 20rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: rgb(234, 234, 234);
+    margin: 2rem;
+    border-radius: 15px;
+    display:grid;
+    justify-content: center;
+    margin-top: 0.1rem;
+}
+
+#celular
+{
+    width: 30rem;
+    height: 3.5rem;
+    background-color: rgb(210,210,210);
+    border-radius: 10px;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: left;
+}
+
+#cel
+{
+    width: 2rem;
+    height: 2rem;
+    margin: 3%;
+    align-self: center;
+    
+}
+
+#instagram
+{
+    width: 30rem;
+    height: 3.5rem;
+    background-color: rgb(210,210,210);
+    border-radius: 10px;
+    margin-top: -1rem;
+    display: flex;
+    justify-content: left;
+}
+
+#ig
+{
+    width: 2rem;
+    height: 2rem;
+    margin: 3%;
+    align-self: center;
+    
+} 
+
+/* ==================== PRODUCTO ==================== */
+
+
+#producto
+{
+    width: 50%;
+    height: 55rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: rgb(234, 234, 234);
+    border-radius: 15px;
+    margin: 5rem;
+    margin-top: 3.1rem;
+    margin-right: 3rem;
+    padding: 1%;
+}  
+
+#nombre
+{
+    font-family: 'LouisGeorge';
+    font-size:2.5rem;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 0%;
+}
+
+#imagen
+{
+    width: 45rem;
+    height: 25rem;
+    background-color: rgb(91, 126, 156);
+    align-self: center;
+    margin: 2%;
+    margin-left: 11%;
+}
+
+#descripcion
+{
+    width: 70%;
+    margin:1%;
+    align-self: center;
+}
+
+#cuadro
+{
+    margin:1%;
+    width: 98%;
+}
+
+#down
+{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    padding: 2%;
+    width: 70%;
+}
+
+#down2
+{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 2%;
+    width: 70%;
+}
+
+#cuadritos
+{
+    width: max-content;
+    background-color: rgb(210,210,210);
+    border-radius: 15px;
+    padding: 3%;
+    margin:1%;
+    align-self: center;
+}
+
+.centrar
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text
+{
+    width: 100%;
+    align-self: center;
+    font-family: "Roboto";
+    font-size:large;
+    color: black;
+}
+

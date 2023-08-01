@@ -1,0 +1,303 @@
+/*Desarollador: Luana Alvarez*/
+
+/* = FUENTES
+--------------------------------------------- */
+@font-face{
+    font-family: Infinity;
+    src: url('../fonts/Infinity/MADEINFINITY\ PERSONALUSE-Medium.otf');
+}
+@font-face{
+    font-family: LouisGeorge;
+    src: url('../fonts/LouisGeorgeCafe/Louis\ George\ Cafe.ttf');
+}
+@font-face{
+    font-family: Roboto;
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+
+header
+{
+    display: grid;
+    justify-content: center;
+    padding: 3rem;
+    margin:auto;
+}
+
+
+h1
+{
+    font-family: 'Infinity';
+}
+
+h3
+{
+    font-family: 'LouisGeorge';
+    margin:auto;
+    margin-top: 2rem;
+}
+
+a
+{
+    color: rgb(87,150,186);
+}
+
+a:visited
+{
+    color: rgb(44, 118, 160);
+}
+
+.texto
+{
+    font-family: 'Roboto';
+}
+
+
+/* ================ FORM PRODUCTO ================ */
+
+/* ========= CLASES ========= */
+.col-7
+{
+    display:flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+
+.producto
+{
+    width: 80%;
+    height: 57rem;
+    background-color: rgb(234, 234, 234);
+    border-radius: 15px;
+    display:grid;
+    justify-content: center;
+}
+
+.derecha
+{
+    display: flex;
+    justify-content: right;
+    margin-right: 5rem;
+}
+
+.down
+{
+    margin: 3rem;
+    display:flex;
+    justify-content: space-around;
+}
+
+
+/* ========= ID´S ========= */
+#default
+{
+    width: 46rem;
+    height: 20rem;
+}
+
+#imagenes
+{
+    margin: 2rem;
+
+}
+
+#img
+{
+    margin:auto;
+}
+
+#centrar
+{
+    text-align: center;
+}
+
+#nombre
+{
+    margin: 1rem;
+    margin-top: 3rem;
+}
+
+#placeholder
+{
+    background-color: transparent;
+    text-align: center;
+    border-color: transparent;
+    font-size: 1.8rem;
+}
+
+#placeholder::placeholder
+{
+    text-align: center;
+}
+
+#Descripción
+{
+    text-align: left;
+    background-color: transparent;
+    border-color: rgb(93, 93, 93);
+}
+
+#transparent
+{
+    text-align: center;
+    background-color: transparent;
+    border-color: rgb(93, 93, 93);
+}
+
+
+/* ================ PUNTOS DE VENTA Y HORARIOS ================ */
+
+.col-5
+{
+    display:flex;
+    flex-direction: column;
+}
+
+.horarios
+{
+    width: 80%;
+    height: 35rem;
+    background-color: rgb(234, 234, 234);
+    margin: 2rem;
+    border-radius: 15px;
+    display:grid;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#lugar
+{
+    text-align: center;
+    background-color: transparent;
+    border-color: rgb(93, 93, 93);
+}
+
+.mapayhorarios
+{
+    margin: 3rem;
+    margin-top: 0rem;
+    display:flex;
+    justify-content: space-around;
+}
+
+#mapa
+{
+    justify-self: center;
+    margin:1rem;
+    margin-bottom: 0%;
+    background-color: aquamarine;
+}
+
+#btn-back
+{
+    width:5.5rem;
+    height:2rem;
+    border-radius: 30px;
+    border-color:transparent;
+    background-color: rgb(87,150,186);
+    color: rgb(255,255,255);
+    align-items: right;
+}
+
+#btn-back:hover
+{
+    background-color: rgb(44, 118, 160);
+}
+
+
+/* ======================== DATOS DE CONTACTO ======================== */
+.contacto
+{
+    width: 80%;
+    height: 20rem;
+    background-color: rgb(234, 234, 234);
+    margin: 2rem;
+    border-radius: 15px;
+    display:grid;
+    justify-content: center;
+    margin-top: 0.1rem;
+}
+
+#celular
+{
+    width: 30rem;
+    height: 3rem;
+    background-color: rgb(210,210,210);
+    border-radius: 10px;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: left;
+}
+
+#instagram
+{
+    width: 30rem;
+    height: 3rem;
+    background-color: rgb(210,210,210);
+    border-radius: 10px;
+    margin-top: -1rem;
+}
+
+#cel
+{
+    width: 2rem;
+    height: 2rem;
+    align-self: left;
+    
+}
+
+#content
+{
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+#text
+{
+    font-family: 'Roboto';
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+
+#ig
+{
+    width: 2rem;
+    height: 2rem;
+    align-self: left;
+    align-self: center;
+    
+}
+
+#content2
+{
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 1rem;
+    margin-top: .5rem;
+}
+
+
+#btn-publicar
+{
+    width:5.5rem;
+    height:2rem;
+    border-radius: 30px;
+    border-color:transparent;
+    background-color: rgb(87,150,186);
+    color: rgb(255,255,255);
+    margin-top: 1.5rem;
+    margin-right: 3rem;
+}
+
+#btn-publicar:hover
+{
+    background-color: rgb(44, 118, 160);
+}
+
+

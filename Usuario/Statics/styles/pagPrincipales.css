@@ -1,0 +1,376 @@
+/* = FUENTES
+--------------------------------------------- */
+@font-face{
+    font-family: Infinity;
+    src: url('../fonts/Infinity/MADEINFINITY\ PERSONALUSE-Medium.otf');
+}
+@font-face{
+    font-family: LouisGeorge;
+    src: url('../fonts/LouisGeorgeCafe/Louis\ George\ Cafe.ttf');
+}
+@font-face{
+    font-family: Roboto;
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+/* = HEADER
+--------------------------------------------- */
+header{
+    font-family: 'Infinity';
+    display: flex;
+    justify-content: center;
+}
+main{
+    background-color: #D9D9D9;
+    margin: 2%;
+    display:flex;
+    border-radius: 20px 20px 20px 20px;
+    /* flex-direction:row; */
+    flex-wrap:wrap;
+    flex-flow:wrap;
+    height: 500px;
+    /* min-height: 440px;
+    max-height: 440px; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /*overflow: auto;*/
+}
+
+/* = ASIDE
+--------------------------------------------- */
+aside{
+    font-family: 'Roboto';
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 3%;
+    width: 20%;
+    border-radius: 20px 0 0 20px;
+    background-color: #D9D9D9;
+}
+#buscador{
+    height: 1.5rem;
+    padding: 3%;
+    border: none;
+    border-radius: 10px;
+    background-color: #ECECEC;
+}
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+}
+.jDer{
+    text-align: end;
+}
+.titulos{
+    font-family: 'LouisGeorge';
+    font-size: 1.5em;
+    text-align: center;
+}
+.server{
+    align-self: flex-end;
+    width: max-content;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    font-size: small;
+    color: #ffffff;
+    background-color: #5796BA;
+}
+.coincidencia{
+    padding: 0.3rem 0.5rem;
+    border-radius: 15px;
+    background-color: gray;
+}
+#crear{
+    position: absolute;
+    bottom: 5%;
+}
+#unirse{
+    display: none;
+    margin: 1% 3%;
+}
+#salir{
+    display: none;
+    margin: 1% 3%;
+}
+#resultados{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 0.5rem;
+}
+
+/* = SERVIDORES
+--------------------------------------------- */
+.servidores{
+    font-family: 'Roboto';
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    gap: 1em;
+    padding: 0.5%;
+    width: 80%;
+    border-radius: 0 20px 20px 0;
+    background-color: #EAEAEA;
+    overflow: auto;
+}
+
+/* = Botones
+-----------------------------------------------*/
+.boton{
+    background-color: #366372;
+    border-color: #36637200;
+    color: #EAEAEA;
+    align-items: center;
+}
+
+/* = Títulos
+-----------------------------------------------*/
+h1{
+    text-align: center;
+    margin: auto;
+    size: 20%;
+}
+/* = Divs
+-----------------------------------------------*/
+/* div{
+    display: flex;
+    margin: auto;
+    text-align: justify;
+} */
+.portada {
+    height: 7.5em;
+    border-radius: 20px 20px 0 0;
+    background-color: #D6D6D6;
+    width: 100%;
+    /*overflow: hidden;*/
+}
+.usuarioPortada{
+    position: absolute;
+    top: 16%;
+    left: 3%;
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+}
+.datos{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 3%;
+    gap: 0.5em;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+}
+.cuadros{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    margin: 0 0 1% 0;
+    width: 42.5%;
+    /* overflow: hidden;
+    overflow: scroll; */
+    border-radius: 20px;
+    background-color: #D6D6D6;
+}
+/* 
+.fotoPortada
+{
+    width: 10%;
+    height: 8rem;
+} */
+
+/* = CHAT
+--------------------------------------------- */
+.chat{
+    /*display: none; /*flex*/
+    flex-direction: column;
+    gap: 1em;
+    margin: 0 3%;
+}
+.fulanitos{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1em;
+    height: 3.75em;
+    /* margin: 0 3%; */
+    border-radius: 20px;
+    background-color: #D9D9D9;
+}
+.fotitos{
+    height: 2.75em;
+    width: 2.75em;
+    margin: 0 0 0 2%;
+    border-radius: 50%;
+}
+
+#comentario-coyote
+{
+    height: 2.75em;
+    width: 2.75em;
+    margin: 0 0 0 2%;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+#usuarios
+{
+    font-weight:600;
+    width:fit-content;
+}
+
+#mensajeindv
+{
+    display:flex;
+    flex-direction: row;
+    background-color: #D9D9D9;
+    height: 3.75em;
+    border-radius: 20px;
+    gap: 1em;
+    margin-top: 30px;
+    align-items: center;
+}
+
+#mensajitos
+{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 30px;
+    /* margin: 0 3%; */
+    border-radius: 20px;
+    /*background-color: #D9D9D9;*/
+}
+
+.amigo
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.comentar
+{
+    /*position: absolute;
+    /* margin-left: 100%;
+    margin-bottom: -10%; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    align-self: end;
+    gap: 1em;
+    height: 2.5em;
+    width: 53rem;
+    /*margin: 2%;*/
+    border-radius: 15px;
+    background-color: rgb(181, 202, 240);
+    border-color:transparent;
+}
+
+#input-comentarios
+{
+    /*background-color: #366372;*/
+    display: flex;
+    align-items: center;
+}
+
+#comentar /* div */
+{
+    position: absolute;
+    margin-left: 24.5%;
+    margin-top: 1.5%; 
+    display: flex;
+    justify-content: end;
+    border-color: none;
+    /*background-color: aqua;*/
+    width: 60rem;
+    height: 3rem;
+}
+
+/* #btnenv
+{
+    /*position: absolute;
+} */
+
+#enviar
+{
+    z-index: 2;
+    background-color: rgb(87,150,186);
+    color: rgb(255,255,255);
+    height: 2.2rem;
+    width: 2.2rem;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    /*margin-left: 100%;
+    /*margin-bottom: 0%;*/
+    /*margin: 5px;*/
+    border-color:transparent;
+}
+
+#enviar:hover
+{
+    background-color: rgb(44, 118, 160)
+}
+
+/* ========= BOTON DE COMENTARIOS======== */
+#boton
+{
+    position:absolute;
+    display: flex;
+    justify-content: end;
+    /* align-items:end; */
+    margin-left: 88%;
+    margin-bottom: -4%;
+}
+
+#nuevo
+{
+    width:2rem;
+    height:2rem;
+    border-radius: 50%;
+    /* margin-top: 1.5%; */
+    border-color:transparent;
+    background-color: rgb(87,150,186);
+    color: rgb(255,255,255);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#nuevo:hover
+{
+    background-color: rgb(44, 118, 160);
+}
+
+#nonuevo
+{
+    width:2rem;
+    height:2rem;
+    border-radius: 50%;
+    /* margin-top: 1.5%; */
+    border-color:transparent;
+    background-color: rgb(87,150,186);
+    color: rgb(255,255,255);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#nonuevo:hover
+{
+    background-color: rgb(44, 118, 160);
+}

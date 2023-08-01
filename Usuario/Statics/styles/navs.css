@@ -1,0 +1,73 @@
+/* = FUENTES
+--------------------------------------------- */
+@font-face{
+    font-family: Roboto;
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+/* = NAV
+--------------------------------------------- */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5em 1em;
+}
+.img{
+    display: flex;
+    gap: 1em;
+    height: 4em;
+}
+.pags{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+.pagRedireccion{
+    font-family: 'Roboto';
+    font-size: 95%;
+    display: flex;
+    align-items: center;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #366372;
+    gap: 2em;
+}
+.fotito{
+    height: 4rem; 
+    width: 4rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+/* .fotoUsuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+    width: 4em;
+    border-radius: 50%;
+    background-color: #366372;
+    overflow: hidden;
+    gap: 2em;
+} */
+
+#navbarSupportedContent
+{
+    gap: 2em;
+}
+
+.navbar-nav 
+{
+    gap: 2em;
+}
+
+.collapse 
+{
+    gap: 2em;
+}
+
+nav 
+{
+    background-color: transparent;
+}

@@ -1,0 +1,163 @@
+/* = FUENTES
+--------------------------------------------- */
+@font-face{
+    font-family: Infinity;
+    src: url('../fonts/Infinity/MADEINFINITY\ PERSONALUSE-Medium.otf');
+}
+@font-face{
+    font-family: LouisGeorge;
+    src: url('../fonts/LouisGeorgeCafe/Louis\ George\ Cafe.ttf');
+}
+@font-face{
+    font-family: Roboto;
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face{
+    font-family: RedCoyote;
+    src: url('../fonts/malvery-free/MalveryFree-Regular.otf');
+}
+
+
+/* = NAV
+--------------------------------------------- */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5em 1em;
+}
+.img{
+    display: flex;
+    gap: 1em;
+    height: 4em;
+}
+.pags{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+.pagRedireccion{
+    display: flex;
+    align-items: center;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #366372;
+}
+.fotoUsuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+    width: 4em;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #366372;
+}
+
+/* = HEADER
+--------------------------------------------- */
+header{
+    display: flex;
+    justify-content: center;
+}
+main{
+    background-color: #ffffff;
+    margin: auto;
+    width: 90%;
+    padding: 2%;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* = ASIDES
+--------------------------------------------- */
+aside{
+    display: block;
+    padding: 2%;
+    background-color: rgb(237, 238, 239);
+    align-items: center;
+    text-align: center;
+}
+/* = Botones
+-----------------------------------------------*/
+.boton{
+    background-color: #366372;
+    border-color: #36637200;
+    color: #EAEAEA;
+    align-items: center;
+}
+
+/* = Títulos
+-----------------------------------------------*/
+#RedCoyote{
+    /* font-family: RedCoyote; */
+    font-size:50px;
+    font-weight: bolder;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+/* ========== CARRUSEL ========== */
+#fondo-carrusel
+{
+    background-color: rgb(237, 238, 239);
+    /*padding: 1rem;*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#carrusel
+{
+    width: 650px;
+    height: 330px;
+    align-self: center;
+    margin-top: 1rem;
+}
+/*Carrusel
+-----------------------------------------------*/
+/* .carrusel{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+
+.elemento{
+    flex: 1 0 auto;
+    margin: 0 50px;
+    background-color: #ffffff;
+    width: 20%;
+    height: 15rem;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.elemento img {
+    width: 100%;
+    height: 100%; 
+    display: block; 
+}
+
+.CARRUSEL{
+    background-color: #ffffff;
+}
+#uno{
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+} */
+
+.centrar
+{
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+

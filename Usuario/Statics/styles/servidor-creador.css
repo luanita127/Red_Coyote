@@ -1,0 +1,155 @@
+@media screen AND (min-width: 62rem) { /*media querie para que cambie la distribucion del navbar arriba de los 992 px*/
+    
+    
+    #paginaPrincipal{
+        position: relative;
+        left: 36.5rem;
+        top: 1rem;
+    }
+    #Ventas{
+        position: relative;
+        left: 37.5rem;
+        top: 1rem;
+    }
+    #ObjetosPerdidos{
+        position: relative;
+        left: 38.5rem;
+        top: 1rem;
+    }
+    #ComunidadP6{
+        position: relative;
+        left: 39.5rem;
+        top: 1rem;
+    }
+    #pfp{
+        position: relative;
+        left: 74rem;
+    }
+}
+main{ /*Tamaño del contenedor de la info principal*/
+    width: 90%;
+    height: auto;
+    position: relative;
+    left: 5%;
+    top: 2rem;
+    background-color: #EAEAEA;
+    border-radius: 1rem;
+}
+.nav{ /*Estilo para todas las opciones del navbar*/
+    border-radius: 5rem;
+    background-color: #366372;
+    font-size: larger;
+    color: #ffffff;
+}
+
+.ElementosBarra{
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+}
+
+ul{
+    list-style: none;
+    top: 0.5rem;
+    display: flex;
+    /* justify-content:center; */
+    left: 200px;
+}
+#P6{ /*Logo de la P6*/
+    position: absolute;
+    top: 0.5rem;
+    width: 4rem;
+    height: 4rem;
+}
+#unam{ /*Logo de la UNAM*/
+    position: absolute;
+    top: 0.5rem;
+    left: 5rem;
+    width: 4rem;
+    height: 4rem;
+}
+#pfp{ /*Tamaño de la foto de perfil del usuario*/
+    width: 4rem;
+    height: 4rem;
+}
+.infoServer{ /*Posición de la informacion del server para que no se encimara*/
+    position: relative;
+    top: 2rem;
+}
+
+#PortadaServer{ /*Diseño de la portada del server*/
+    width: 100%;
+    height: 16rem;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+#linkServer{ /*Diseño del boton para conseguir el link del server*/
+    width: 1rem;
+    position: relative;
+    left: 95%;
+    top: -23rem;
+    font-size: xx-large;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+#pfpServer{ /*Foto de perfil del server*/
+    height: 8rem;
+    width: 8rem;
+    border-radius: 5rem;
+    position: relative;
+    left: 1.5rem;
+    top: -4rem;
+}
+#infoServer{ /*Tamaño del contenedor de la información del server*/
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 3%;
+    gap: 0.5em;
+    position: absolute;
+}
+#descripcion_reglas{ /*Tamaño y distribución del contenedor de la descripción y las reglas*/
+    width: 100%;
+    height: 16rem;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -7rem;
+}
+#descipcion{ /*Tamaño del contenedor de la descripción*/
+    width: 40%;
+    background-color: #D6D6D6;
+    overflow: auto;
+    border-radius: 0.5rem;
+}
+#reglas{ /*Contenedor de las reglas*/
+    width: 40%;
+    background-color: #D6D6D6;
+    overflow: auto;
+    border-radius: 0.5rem;
+}
+#editar{ /*Botón para editar*/
+    position: relative;
+    left: 65rem;
+    top: -2rem;
+    background-color: #FFFFCC;
+    border-radius: 1rem;
+}
+#agregarMSJ{ /*Botón para agregar mensaje*/
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+    background-color: #5796BA;
+    color: #ffffff;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 68rem;
+}
+#chatServer{
+    position: relative;
+    top: -5rem;
+}
