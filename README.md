@@ -36,7 +36,7 @@ Para poder instalar correctamente el proyecto deberá seguir los siguientes paso
 - Vista publicar producto 
 - Vista producto específico 
 - Vista objeto específico
-- Comentarios en los servidores
+- Comentarios en los clubes
 2. Cupa Sepúlveda José Clemente:
 - Vista para crear un club
 - Vista para editar un club
